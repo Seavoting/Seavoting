@@ -8,10 +8,6 @@ contract vote {
 
     using SafeMath for uint;
 
-    address  public rvipAddr;
-
-    address public shoppingAddr ;
-
     struct OracleVote{
      address  contractAddr;
      uint     ratioFactor;
@@ -20,9 +16,9 @@ contract vote {
     OracleVote [] oracleVoteArray;
 
     struct Vote{
-      address owner; //拥有者
-      uint tokenId; //tokenId号
-      uint crtTime;//生成时间
+      address owner;
+      uint tokenId;
+      uint crtTime;
     }
 
     constructor(address _rVip,address core) CoreRef(core) public {
@@ -71,23 +67,6 @@ contract vote {
             return newTokenId;
       }
 
-
-     function setShoppingAddr (address  addr) onlyGovernor public  {
-         emit ChangeShoppingAddrEvent(shoppingAddr,addr);
-         shoppingAddr=addr;
-     }
-
-
-     function setRbVipAddr (address  _rVip) onlyGovernor public  {
-        emit ChangeRbVipAddrEvent(rvipAddr,_rVip);
-         rvipAddr=_rVip;
-     }
-
-
-    function getRbVipLevel (address addr)public view returns(uint){
-     IRbtVip RbVip = IRbtVip(rvipAddr);
-     return  RbVip.getVipLevel(addr);
-   }
 
 
     function  setOriginalVote(address to,address govAddr,uint cityNodeId,uint blockNumber,uint campaignId) public {
