@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 pragma experimental ABIEncoderV2;
-
+import './lib/PublicStruct.sol';
 contract GovernorAlpha {
     /// @notice The name of this contract
     string public constant name = "Compound Governor Alpha";
