@@ -1,6 +1,6 @@
 # Seavoting
-
-## project orientation
+ 
+## project orientation 
 
 Seavoting is a cross-chain decentralized voting system that enables users to achieve cross-chain vote on governance.
 
