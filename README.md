@@ -14,3 +14,4 @@ As a decentralized cross-chain voting system, Seavoting has the following primar
 2. Multiple weights.Votes not only come from the wallet, but also from the contract.
 3. Diversity of weight settings. Different weights can be set for different contracts.
 4. Cross-chain weight collection. Proposers can set which blockchain the weight comes from.
+
