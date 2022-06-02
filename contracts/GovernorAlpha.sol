@@ -93,7 +93,11 @@ contract GovernorAlpha {
         Pending,
         Active,
         Defeated,
-        Succeeded
+        Succeeded,
+        Queued,
+        Executed,
+        Canceled,
+        Expired
     }
 
     /// @notice The official record of all proposals ever proposed
