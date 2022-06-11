@@ -1,16 +1,23 @@
-### Hi there 👋 
-  
+## Documentation on how to run the project
 
-**Seavoting/Seavoting** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Dependencies
 
-Here are some ideas to get you started:
+- Linux or Mac
+- node ≥ 16
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
+## Installing
+
+```bash
+git clone https://github.com/Seavoting/Seavotings.git
+cd Seavotings
+npm install
+```
+
+**Note**: Only the Metamask wallet is available for this demo
+
+
+## Deploy Contracts
+```bash 
+truffle compile && truffle migrate
+```
