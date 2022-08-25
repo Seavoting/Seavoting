@@ -14,5 +14,3 @@ contract GovFactory {
         return govInfo;
     }
 }
-
-
