@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-Linux or Mac
+Linux or Mac  
 Node ≥ 16
 
 
