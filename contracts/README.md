@@ -2,8 +2,8 @@
 
 ## Dependencies
 
-- Linux or Mac
-- node ≥ 16
+Linux or Mac
+Node ≥ 16
 
 
 ## Installing
