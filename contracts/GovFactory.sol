@@ -1,4 +1,5 @@
 pragma experimental ABIEncoderV2;
+
 pragma solidity ^0.5.16;
 
 import './GovernorAlpha.sol';
@@ -15,4 +16,4 @@ contract GovFactory {
         govs.push(govInfo);
         return govInfo;
     }
-}
+};
