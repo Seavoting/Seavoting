@@ -16,4 +16,4 @@ contract GovFactory {
         govs.push(govInfo);
         return govInfo;
     }
-};
+}
