@@ -10,7 +10,11 @@
 
 ```bash
 git clone https://github.com/Seavoting/Seavotings.git
+```
+```
 cd Seavotings
+```
+```
 npm install
 ```
 
