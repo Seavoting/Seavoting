@@ -23,5 +23,8 @@ npm install
 
 ## Deploy Contracts
 ```bash 
-truffle compile && truffle migrate
+truffle compile 
+```
+```
+truffle migrate
 ```
