@@ -14,5 +14,5 @@ In addition to reading the number of governance tokens in the wallet, it can als
 As a decentralized cross-chain voting system, Seavoting has the following primary functions and features:
 - Fully decentralized. Voting is done through on-chain voting.
 - Multiple weights.Votes not only come from the wallet, but also from the contract.
-3. Diversity of weight settings. Different weights can be set for different contracts.
-4. Cross-chain weight collection. Proposers can set which blockchain the weight comes from.
+- Diversity of weight settings. Different weights can be set for different contracts.
+- Cross-chain weight collection. Proposers can set which blockchain the weight comes from.
